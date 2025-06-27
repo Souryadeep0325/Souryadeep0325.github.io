@@ -85384,7 +85384,7 @@ g=n.r.a.a
 if(g.length!==0)h.n(0,"itemId",g)
 g=n.w.a.a
 if(g.length!==0)h.n(0,"productName",g)
-l=A.asG("http","35.154.252.161:8080","/api/ticket/search-ticket",h)
+l=A.asG("http","api.abcoped.shop","/api/ticket/search-ticket",h)
 q=3
 s=6
 return A.R(A.jq(l,A.a4(["Authorization","Bearer "+A.j(m.c),"Accept","application/json"],i,i)),$async$dg)
@@ -86025,7 +86025,7 @@ if(c.length!==0){n=A.z(o,o)
 n.n(0,"productName",c)
 n.n(0,"page",B.i.k(b))
 if(a.length!==0)n.n(0,"brand",a)
-m=A.asG("http","35.154.252.161:8080","/api/product/brand/names/products",n)}else m=A.asG("http","35.154.252.161:8080","/api/product/brand/names",A.a4(["brand",a,"page",B.i.k(b)],o,t.z))
+m=A.asG("http","api.abcoped.shop","/api/product/brand/names/products",n)}else m=A.asG("http","api.abcoped.shop","/api/product/brand/names",A.a4(["brand",a,"page",B.i.k(b)],o,t.z))
 n=p.at
 n===$&&A.a()
 s=3
@@ -86506,7 +86506,7 @@ g=n.x.a.a
 if(g.length!==0)h.n(0,"costMin",g)
 g=n.y.a.a
 if(g.length!==0)h.n(0,"costMax",g)
-l=A.asG("http","35.154.252.161:8080","/api/ticket/search-ticket",h)
+l=A.asG("http","api.abcoped.shop","/api/ticket/search-ticket",h)
 q=3
 s=6
 return A.R(A.jq(l,A.a4(["Authorization","Bearer "+A.j(m.c),"Accept","application/json"],i,i)),$async$dg)
